@@ -1,0 +1,13 @@
+# Backend dependencies for simple_backend.py (Flask + YOLOv8)
+# Create venv then: pip install -r requirement_backend.txt
+
+Flask>=3.0.0
+flask-cors>=4.0.0
+ultralytics>=8.2.0
+opencv-python>=4.9.0.80
+numpy>=1.24.0
+Pillow>=9.5.0
+# Eventlet only if you later enable async/socket features
+eventlet==0.33.3
+# Optional utility (not strictly required but useful)
+psutil>=5.9.0
